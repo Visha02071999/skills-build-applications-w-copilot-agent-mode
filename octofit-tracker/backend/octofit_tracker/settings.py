@@ -30,6 +30,9 @@ INSTALLED_APPS = [
     "octofit_tracker",
 ]
 
+# Add djongo to the installed apps
+INSTALLED_APPS += ["djongo"]
+
 # Add TEMPLATES configuration
 TEMPLATES = [
     {
